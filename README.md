@@ -1,21 +1,21 @@
-# 🎓 Diploma Project: Search Engine
+# 🎓 Диплом
 
-A full-featured search engine built with C++ that includes web crawling, text indexing, and a web interface.
+Полнофункциональная поисковая система, написанная на C++, которая включает в себя сканирование веб-страниц, индексацию текста и веб-интерфейс.
 
-## 🚀 Features
+## 🚀 Возможности
 
-- **Web Spider** - Crawls and indexes web pages
-- **PostgreSQL Database** - Stores documents and word frequencies  
-- **Web Interface** - Beautiful search interface with relevance ranking
-- **Multi-threading** - Parallel page processing
+- **Web Spider** - Сканирует и индексирует веб-страницы
+- **База данных PostgreSQL** - Хранит документы и частотность слов
+- **Веб-интерфейс** - Красивый поисковый интерфейс с ранжированием по релевантности
+- **Многопоточность** - Параллельная обработка страниц
 
-## 🛠️ Build Instructions
+## 🛠️ Инструкции по сборке
 
-### Prerequisites
+### Необходимые компоненты
 - Visual Studio 2022
 - vcpkg
 - PostgreSQL
 
-### 1. Install Dependencies
+### 1. Установка зависимостей
 ```bash
 vcpkg install boost-system libpqxx openssl
