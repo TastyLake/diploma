@@ -1,0 +1,48 @@
+# Compiled executables
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.pdb
+*.idb
+
+# Build directories
+build/
+build-vs/
+x64/
+Debug/
+Release/
+*.dir/
+*.vcxproj.*
+*.sln
+*.vcxproj.user
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# DLL files (добавляются при сборке)
+*.dll
+
+# Database files (если есть локальные)
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# IDE files
+.vs/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
